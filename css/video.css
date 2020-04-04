@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: black;
+}
+.nav{
+    text-align: right;
+}
+.contenedor,
+.botonera{
+    text-align: center;
+    margin-top: 20px;
+}
+video{
+    border-radius: 2px;
+    box-shadow: 0 5px 25px 4px rgba(255,255,255,0.4);;
+}
+button{
+    margin: 10px 10px;
+    border: none;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    background: darkred;
+    color: white;
+    width: 80px;
+    height: 40px;
+    outline: none;
+}
+button:hover{
+    background: #ff2929 ;
+    color: black;
+    cursor: pointer;
+
+}
+#volumen{
+    -webkit-appearance: none;
+    width: 180px;
+    height: 7px;
+    border-radius: 2px;
+    outline: none;
+    margin-left: 50px;
+}
+#volumen::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 27px;
+    border: 0;
+    background: darkred;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+

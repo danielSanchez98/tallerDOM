@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #1f1f1f;
+}
+.div{
+    text-align: center;
+    background-color: darkred;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    padding-top: 36%;
+    font-size: 30px;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.nav{
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 10px;
+    height: 50px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-auto-rows: minmax(auto,100px);
+    margin-top: 15px;
+}
+.botonera{
+    
+    text-align: center;
+    height: 50px;
+    padding: 5px;
+}
+
+
+button{
+    outline: none;
+    background: darkred;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;    
+    width: 100px;
+
+
+}
+.botonera>button{
+    margin-top: 10px;
+    height: 30px;    
+    width: 180px;
+}
+
+button:hover{
+    background: #ff2929 ;
+    color: black;
+}

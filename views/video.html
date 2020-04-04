@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="../css/video.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="../index.html"><button>Home</button></a>
+    </div>
+
+    <div class="contenedor">
+        <video id="video" width="720" >
+            <source src="../videos/trailer_480p.mp4" type="video/mp4">
+        </video>
+       
+    </div>
+
+    <div class="botonera">
+        <button id="rewind"> ◄◄ </button>
+        <button id="play-pause">&#9654;</button>
+        <button id="fast-forward"> ▶▶ </button>
+        <label for="volumen"></label>
+        <input type="range" id="volumen" min="0" max="100" value="100">
+
+    </div>
+    
+
+    <script src="../js/video.js"></script>
+    
+</body>
+</html>
